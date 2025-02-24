@@ -22,7 +22,7 @@ h2{
 /*init*/
 #init{
     display: flex;
-    height: 55vh;
+    height: 45vh;
     width: 100vw;
     padding-bottom: 80px;
     flex-direction: column;
@@ -937,6 +937,12 @@ label {
 
 
 /*Media Queries*/
+@media screen and (max-height: 1402px){
+    #init{
+        height: 55vh;
+    }
+}
+
 @media screen and (max-width:1181px){
 #nosotros>div:first-child>div:first-child>div:last-child{
     height: 55vh;
@@ -1065,6 +1071,10 @@ label {
         align-items: center;
         justify-content: center;
         padding: 2rem;
+    }
+
+    #init>div:last-child>h1{
+        line-height: unset;
     }
 
     #init>div:last-child>a{
