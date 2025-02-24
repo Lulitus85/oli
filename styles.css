@@ -22,7 +22,7 @@ h2{
 /*init*/
 #init{
     display: flex;
-    height: 45vh;
+    height: 55vh;
     width: 100vw;
     padding-bottom: 80px;
     flex-direction: column;
